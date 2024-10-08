@@ -1,0 +1,64 @@
+{
+    "mapwidth": 2398,
+    "mapheight": 1407,
+    "levels": [
+        {
+            "id": "mapa",
+            "title": "Mapa",
+            "map": "img\/mapa.png",
+            "minimap": "img\/mapapeque.jpg",
+            "locations": [
+                {
+                    "id": "1",
+                    "title": "San Francisco",
+                    "link": "https://www.google.com/maps/@7.1314114,-73.1241088,3a,75y,116.32h,90t/data=!3m7!1e1!3m5!1sxQyJN_x8T6DRRlThU_vjoA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DxQyJN_x8T6DRRlThU_vjoA%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D116.494675%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?coh=205409&entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D",
+                    "description": "<a href=\"img\/p1a.png\" class=\"pp_p1\"><img src=\"img\/p1_minia.png\"\/><\/a>\n\t\t\t\n\t<\/div><script>$(document).ready(function(){$(\".pp_p1\").prettyPhoto({theme:\"dark_square\"});\t\n\t\t\t});<\/script><div style=\"height:20px\"><\/div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec elit dolor. Quisque posuere eleifend quam. Mauris eros eros, convallis id massa et, tempor pharetra lacus. Fusce nec viverra nibh, ullamcorper sollicitudin lectus. Morbi sed purus id erat venenatis viverra et ac enim. Donec nec ipsum id neque interdum sollicitudin a id velit. Nam posuere ut ipsum non volutpat. Mauris ac mauris eu elit volutpat porttitor vitae nec risus. Phasellus congue, est et tincidunt volutpat, tortor metus dictum quam, vel tristique libero lectus dictum neque. Suspendisse a tincidunt enim. Nulla sollicitudin turpis sit amet purus auctor, eu laoreet felis luctus.",
+                    "x": "0.5255",
+                    "y": "0.3685",
+                    "zoom": "2",
+                    "about": "Descripción corta del sitio"
+                },
+                {
+                    "id": "2",
+                    "title": "Punto 2",
+                    "link": "img/pdf/barichara.pdf",
+                    "description": "<a href=\"img\/p2a.png\" class=\"pp_p2\"><img src=\"img\/p2_minia.png\"\/><\/a>\n\t\t\t\n\t<\/div><script>$(document).ready(function(){$(\".pp_p2\").prettyPhoto({theme:\"dark_square\"});\t\n\t\t\t});<\/script><div style=\"height:20px\"><\/div>",
+                    "x": "0.560",
+                    "y": "0.612",
+                    "zoom": "2",
+                    "about": "Descripción corta del sitio"
+                },
+                {
+                    "id": "3",
+                    "title": "Punto 3",
+                    "link": "img/pdf/lossantos.pdf",
+                    "description": "<a href=\"img\/p3a.png\" class=\"pp_p3\"><img src=\"img\/p3_minia.png\"\/><\/a>\n\t\t\t\n\t<\/div><script>$(document).ready(function(){$(\".pp_p3\").prettyPhoto({theme:\"dark_square\"});\t\n\t\t\t});<\/script><div style=\"height:20px\"><\/div>",
+                    "x": "0.586",
+                    "y": "0.55",
+                    "zoom": "2",
+                    "about": "Descripción corta del sitio"
+                },
+                {
+                    "id": "4",
+                    "title": "Punto 4",
+                    "link": "img/pdf/villanueva.pdf",
+                    "description": "<a href=\"img\/p4a.png\" class=\"pp_p4\"><img src=\"img\/p4_minia.png\"\/><\/a>\n\t\t\t\n\t<\/div><script>$(document).ready(function(){$(\".pp_p4\").prettyPhoto({theme:\"dark_square\"});\t\n\t\t\t});<\/script><div style=\"height:20px\"><\/div>",
+                    "x": "0.5711",
+                    "y": "0.602",
+                    "zoom": "2",
+                    "about": "Descripción corta del sitio"
+                },
+                {
+                    "id": "5",
+                    "title": "Punto 5",
+                    "link": "img/pdf/zapatoca.pdf",
+                    "description": "<a href=\"img\/p5a.png\" class=\"pp_p5\"><img src=\"img\/p5_minia.png\"\/><\/a>\n\t\t\t\n\t<\/div><script>$(document).ready(function(){$(\".pp_p5\").prettyPhoto({theme:\"dark_square\"});\t\n\t\t\t});<\/script><div style=\"height:20px\"><\/div>",
+                    "x": "0.549",
+                    "y": "0.542",
+                    "zoom": "2",
+                    "about": "Descripción corta del sitio"
+                }
+            ]
+        }
+    ]
+}

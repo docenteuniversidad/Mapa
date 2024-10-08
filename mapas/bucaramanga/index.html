@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo UDES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="loader.css" />
+    <link rel="stylesheet" href="js/prettyphoto/css/prettyPhoto.css">
+    <link rel="stylesheet" href="js/mapplic/mapplic.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+
+    <div class="loader">
+        <div class="thecube">
+            <div class="cube c1"></div>
+            <div class="cube c2"></div>
+            <div class="cube c4"></div>
+            <div class="cube c3"></div>
+        </div>
+    </div>
+
+    <div id="mapa"></div>
+
+
+
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/hammer.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/mapplic/mapplic.js"></script>
+    <script src="acciones.js"></script>
+
+    <script src="js/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $(".gallery a[rel^='prettyPhoto']").prettyPhoto({ animation_speed: 'normal', theme: 'dark_square', autoplay_slideshow: false });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
