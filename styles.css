@@ -1,0 +1,169 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: "Poppins";
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.loader {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background: #FFF;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+.mapas {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF;
+}
+
+
+.mapa {
+    position: relative;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapaimagen {
+    width: 100%;
+}
+
+.pin {
+    width: 30px;
+    position: absolute;
+}
+
+
+
+
+
+.titulos {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-family: "Barlow Condensed";
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #b41342;
+    text-align: center;
+}
+
+.subtitulo {
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #151921;
+}
+
+.texto {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #151921;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #151921;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .mapas {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .titulos {
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .titulo {
+        font-size: 15vw;
+    }
+}
